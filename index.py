@@ -16,15 +16,15 @@ else:
     print('Wenn Sie Basis-Mitglied seid, geben sie "b" ein.')
     print('Wenn Sie Kein Mitglied sind, drücken Sie eine beliebige andere Taste.')
     antwort_rabatt = input()
-if antwort_rabatt == "P":
-    print('### Eintritt Premium-Mitglied ###')
-    print('Preis: ', preis_premium, ' Euro ')
-elif antwort_rabatt =="b":
-    print('### Eintritt Basis-Mitglied ###')
-    print('Preis: ', preis_erwachsene, ' Euro ')
-else:
-    print('### Eintritt Erwachsene (voller Preis) ###')
-    print('Preis: ', preis_erwachsene,' Euro ')
+    if antwort_rabatt == "P":
+        print('### Eintritt Premium-Mitglied ###')
+        print('Preis: ', preis_premium, ' Euro ')
+    elif antwort_rabatt =="b":
+        print('### Eintritt Basis-Mitglied ###')
+        print('Preis: ', preis_erwachsene, ' Euro ')
+    else:
+        print('### Eintritt Erwachsene (voller Preis) ###')
+        print('Preis: ', preis_erwachsene,' Euro ')
     
 print('Drücken sie eine beliebige Taste um das Programm zu beenden!')
 input()
