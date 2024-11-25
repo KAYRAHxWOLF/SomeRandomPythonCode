@@ -19,11 +19,12 @@ else:
 if antwort_rabatt == "P":
     print('### Eintritt Premium-Mitglied ###')
     print('Preis: ', preis_premium, ' Euro ')
-    if antwort_rabatt =="b":
-        print('### Eintritt Basis-Mitglied ###')
-        print('Preis: ', preis_erwachsene, ' Euro ')
-    else:
-        print('### Eintritt Erwachsene (voller Preis) ###')
-        print('Preis: ', preis_erwachsene,' Euro ')
+elif antwort_rabatt =="b":
+    print('### Eintritt Basis-Mitglied ###')
+    print('Preis: ', preis_erwachsene, ' Euro ')
+else:
+    print('### Eintritt Erwachsene (voller Preis) ###')
+    print('Preis: ', preis_erwachsene,' Euro ')
+    
 print('Drücken sie eine beliebige Taste um das Programm zu beenden!')
 input()
