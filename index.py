@@ -1,4 +1,5 @@
 preis_erwachsene = 5.0
+preis_jugendlich = 3.5
 preis_kinder = 2.5
 preis_premium = 3.0
 preis_basis = 4.0
@@ -10,6 +11,9 @@ alter_gast = int(input())
 if alter_gast < 14:
     print('### Eintritt Kinder ### ')
     print('Preis: ', preis_kinder, ' Euro ')
+elif alter_gast < 18: 
+    print('### Eintritt Jugendliche ###')
+    print('Preis: ', preis_jugendlich, ' Euro ')
 else:
     print('Sind sie Mitglied im Duisburger Museumsclub? (Nachweis erforderlich) ')
     print('Wenn Sie Premium-Mitglied sind, geben Sie "p" ein.')
