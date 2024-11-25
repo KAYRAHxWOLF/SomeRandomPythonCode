@@ -20,12 +20,12 @@ else:
     print('Wenn Sie Basis-Mitglied seid, geben sie "b" ein.')
     print('Wenn Sie Kein Mitglied sind, drücken Sie eine beliebige andere Taste.')
     antwort_rabatt = input()
-    if antwort_rabatt == "P":
+    if antwort_rabatt == "p":
         print('### Eintritt Premium-Mitglied ###')
         print('Preis: ', preis_premium, ' Euro ')
     elif antwort_rabatt =="b":
         print('### Eintritt Basis-Mitglied ###')
-        print('Preis: ', preis_erwachsene, ' Euro ')
+        print('Preis: ', preis_basis, ' Euro ')
     else:
         print('### Eintritt Erwachsene (voller Preis) ###')
         print('Preis: ', preis_erwachsene,' Euro ')
