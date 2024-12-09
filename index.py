@@ -9,10 +9,10 @@ while u_continue:
     print('### Tarifauskunftsrechener Museum XXX ###')
     print('Hallo, geben Sie bitte Ihr Alter ein.')
     alter_gast = int(input())
-    if alter_gast < 14:
+    if alter_gast < 15:
         print('### Eintritt Kinder ### ')
         print('Preis: ', preis_kinder, ' Euro ')
-    elif alter_gast < 17:
+    elif alter_gast < 18:
         print('### Eintritt Jugendliche ### ')
         print('Preis: ', preis_jugendliche,' Euro')  
     else:
